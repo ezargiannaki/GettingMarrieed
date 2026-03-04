@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500&family=Marck+Script&display=swap" rel="stylesheet">
   <!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500&family=Comfortaa:wght@400;600&display=swap" rel="stylesheet"> -->
  <!-- <link rel="stylesheet" href="style.css?v=2" /> -->
-  <link rel="stylesheet" href="theme-split.css?v=1" />
+  <link rel="stylesheet" href="theme-split.css?v=2" />
 </head>
 
 <body>
@@ -30,28 +30,25 @@
       </div>
 
       <!-- COUNTDOWN (κουτάκια + :) -->
-        <div class="hero-right">
-          <div class="count-title">Αντίστροφη μέτρηση</div>
-          <div class="cd-big">Μένουν <span id="d">00</span> μέρες</div>
-      
-          <div class="cd-badges" role="group" aria-label="Χρονόμετρο αντίστροφης μέτρησης">
-            <div class="badge">
+        <div class="count-title">Αντίστροφη μέτρηση</div>
+        <div class="cd-line">
+          <span class="cd-big">Μένουν <span id="d">00</span> μέρες</span>
+        
+          <div class="cd-circles" role="group" aria-label="Χρονόμετρο αντίστροφης μέτρησης">
+            <div class="circle">
               <div class="n"><span id="h">00</span></div>
               <div class="t">Ώρες</div>
             </div>
-            <div class="badge">
+            <div class="circle">
               <div class="n"><span id="m">00</span></div>
               <div class="t">Λεπτά</div>
             </div>
-            <div class="badge">
+            <div class="circle">
               <div class="n"><span id="s">00</span></div>
               <div class="t">Δευτ.</div>
             </div>
           </div>
-      
-          <div class="tiny-note">* Η ώρα εμφανίζεται με βάση τη συσκευή.</div>
         </div>
-      </header>
 
       <!-- INVITE TEXT -->
       <section class="card fade-in">
