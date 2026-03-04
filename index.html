@@ -5,35 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Απόστολος & Ειρήνη</title>
 
-  <!-- Safe fonts (Google Fonts) -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500&family=Great+Vibes&display=swap" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500&family=Marck+Script&display=swap" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500&family=Comfortaa:wght@400;600&display=swap" rel="stylesheet"> -->
- <!-- <link rel="stylesheet" href="style.css?v=2" /> -->
-  <link rel="stylesheet" href="theme-split.css?v=2" />
+
+  <!-- Strict serif for names + clean sans + calligraphic for gift -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600&family=Marck+Script&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css?v=9" />
 </head>
 
 <body>
 
   <main class="page">
-    <section class="paper fade-in">
 
-      <!-- HERO -->
-      <header class="card hero-split fade-in">
-      <div class="hero-left">
-        <div class="mini">Wedding Invitation</div>
-        <h1 class="names">Απόστολος <span class="amp">&</span> Ειρήνη</h1>
-        <p class="date">Κυριακή … 2027 · 18:00</p>
-        <p class="quote">«Οι σχέσεις είναι σαν τα λουλούδια — όσο τις φροντίζεις, μένουν ζωντανές.»</p>
-      </div>
+    <!-- HERO (MONO-KOMMATO) -->
+    <section class="hero fade-in">
+      <div class="hero-inner">
 
-      <!-- COUNTDOWN (κουτάκια + :) -->
-        <div class="count-title">Αντίστροφη μέτρηση</div>
-        <div class="cd-line">
-          <span class="cd-big">Μένουν <span id="d">00</span> μέρες</span>
-        
+        <!-- LEFT -->
+        <div class="hero-left">
+          <div class="tagline">Wedding Invitation</div>
+          <h1 class="names">Απόστολος <span class="amp">&</span> Ειρήνη</h1>
+          <div class="date">Κυριακή … 2027 · 18:00</div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="hero-right">
+          <div class="count-title">Αντίστροφη μέτρηση</div>
+          <div class="cd-days">Μένουν <span id="d">00</span> μέρες</div>
+
           <div class="cd-circles" role="group" aria-label="Χρονόμετρο αντίστροφης μέτρησης">
             <div class="circle">
               <div class="n"><span id="h">00</span></div>
@@ -50,141 +51,134 @@
           </div>
         </div>
 
-      <!-- INVITE TEXT -->
-      <section class="card fade-in">
-        <p class="intro">
-          Η σχέσεις είναι σαν τα λουλούδια, όσο τα φροντίζεις και τα αγαπάς, μένουν ζωντανά.
-          Με μεγάλη μας χαρά θα θέλαμε να παρεβρεθείτε εκείνη την μέρα.
-        </p>
-      </section>
-
-      <!-- LOCATIONS -->
-      <section class="card fade-in">
-        <h2 class="card-title">Το Μυστήριο</h2>
-        <p class="card-text">
-          ⛪ Ιερός Ναός Αγίων Τιμοθέου και Μαύρας,<br>
-          Ηλιούπολη ΤΚ: 16342
-        </p>
-
-        <a class="btn" target="_blank" rel="noopener"
-           href="https://maps.app.goo.gl/vNykeE1Lnr1oiBZy7">
-          📍 Δείτε την τοποθεσία
-        </a>
-
-        <div class="map">
-          <iframe
-            title="Χάρτης - Μυστήριο"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps?q=Ιερός%20Ναός%20Αγίου%20Τιμοθέου%20και%20Αγίας%20Μαύρας%20Ηλιούπολη&output=embed">
-          </iframe>
-        </div>
-      </section>
-
-       <!-- OIKOGENEIES -->
-      <section class="card fade-in">
-        <h2 class="card-title">Οικογένειες</h2>
-      
-        <div class="list">
-          <div class="list-item">
-            <!-- <div class="dot"></div> -->
-            <div class="list-text"><strong>Παναγιώτη Κιοβρέκη </strong></div>
-            <div class="list-text"><strong>Μαρίας Μαχαίρα </strong></div>
-          </div>
-          <div class="list-item">
-            <!-- <div class="dot"></div> -->
-            <div class="list-text"><strong>Κωνσταντίνου Ζαργιαννάκη </strong></div>
-            <div class="list-text"><strong>Δέσποινας Καυκιά </strong></div>
-          </div>
-        </div>
-      </section>
-
-      
-      <!-- KOUMPAROI -->
-      <section class="card fade-in">
-        <h2 class="card-title">Κουμπάροι</h2>
-
-        <!-- Βάλε εδώ τα πραγματικά ονόματα -->
-        <div class="list">
-          <div class="list-item">
-            <!--<div class="dot"></div> -->
-            <div class="list-text"><strong>Χρήστος Ρέλλιας </strong></div>
-          </div>
-          <div class="list-item">
-            <!--<div class="dot"></div> -->
-            <div class="list-text"><strong>Θα δούμε </strong></div>
-          </div>
-        </div>
-      </section>
-
-      <!-- IBAN / IRIS -->
-      <section class="card fade-in">
-        <h2 class="card-title">Δώρο</h2>
-        <p class="card-text">
-          Για όσους επιθυμούν.
-        </p>
-
-        <!-- Βάλε τα πραγματικά σου στοιχεία -->
-        <div class="gift-grid"> 
-          <div class="gift-box">
-            <div class="gift-label">IBAN Πειραιώς</div>
-            <div class="gift-value" id="ibanText2">GR</div>
-            <button class="btn small" type="button" data-copy="#ibanText2"><span aria-hidden="true">📋</span> <span>Αντιγραφή</span></button>
-          </div>
       </div>
+    </section>
 
-      <div class="gift-grid">
-          <div class="gift-box">
-            <div class="gift-label">IRIS Απόστολου</div>
-            <div class="gift-value" id="irisText">+306984040195</div>
-            <button class="btn small" type="button" data-copy="#irisText">📋 Αντιγραφή</button>
-         </div>
-          <div class="gift-box">
-            <div class="gift-label">IRIS Ειρήνης</div>
-            <div class="gift-value" id="irisText2">+306942989216</div>
-            <button class="btn small" type="button" data-copy="#irisText2">📋 Αντιγραφή</button>
-          </div>
+    <!-- INTRO -->
+    <section class="section center fade-in">
+      <p class="intro">
+        Οι σχέσεις είναι σαν τα λουλούδια, όσο τα φροντίζεις και τα αγαπάς, μένουν ζωντανά.
+        Με μεγάλη μας χαρά θα θέλαμε να παρευρεθείτε εκείνη την μέρα.
+      </p>
+    </section>
+
+    <!-- MYSTIRIO -->
+    <section class="section center fade-in">
+      <h2 class="h2">Το Μυστήριο</h2>
+      <p class="muted">
+        Το μυστήριο θα τελεστεί στον/στην:
+      </p>
+
+      <p class="place">
+        ⛪ Ιερός Ναός Αγίων Τιμοθέου και Μαύρας, Ηλιούπολη ΤΚ: 16342
+      </p>
+
+      <a class="pin-btn" target="_blank" rel="noopener"
+         href="https://maps.app.goo.gl/vNykeE1Lnr1oiBZy7" aria-label="Άνοιγμα τοποθεσίας στο Google Maps">
+        📍
+      </a>
+
+      <div class="map">
+        <iframe
+          title="Χάρτης - Μυστήριο"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Ιερός%20Ναός%20Αγίου%20Τιμοθέου%20και%20Αγίας%20Μαύρας%20Ηλιούπολη&output=embed">
+        </iframe>
       </div>
+    </section>
+
+    <!-- OIKOGENEIES -->
+    <section class="section center fade-in">
+      <h2 class="h2">Οικογένειες</h2>
+
+      <div class="two-col">
+        <div class="col left">
+          <div class="person"><strong>Παναγιώτη Κιοβρέκη</strong></div>
+          <div class="person"><strong>Μαρίας Μαχαίρα</strong></div>
+        </div>
+
+        <div class="col right">
+          <div class="person"><strong>Κωνσταντίνου Ζαργιαννάκη</strong></div>
+          <div class="person"><strong>Δέσποινας Καυκιά</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KOUMPAROI -->
+    <section class="section center fade-in">
+      <h2 class="h2">Κουμπάροι</h2>
+
+      <div class="two-col">
+        <div class="col left">
+          <div class="person"><strong>Χρήστος Ρέλλιας</strong></div>
+        </div>
+
+        <div class="col right">
+          <div class="person"><strong>Θα δούμε</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GIFT -->
+    <section class="section center fade-in">
+      <h2 class="h2">Δώρο</h2>
+      <p class="muted">
+        Σε περίπτωση που θα θέλατε να μας κάνετε ένα δώρο για την καινούργια μας αρχή:
+      </p>
+
+      <div class="gift">
+        <div class="gift-row">
+          <div class="gift-label">IBAN Πειραιώς</div>
+          <div class="gift-value script" id="ibanText">GR•••• •••• •••• •••• •••• •••</div>
+          <button class="copy-btn" type="button" data-copy="#ibanText">Αντιγραφή</button>
+        </div>
+
+        <div class="gift-row">
+          <div class="gift-label">IRIS Απόστολου</div>
+          <div class="gift-value script" id="irisApostolos">+306984040195</div>
+          <button class="copy-btn" type="button" data-copy="#irisApostolos">Αντιγραφή</button>
+        </div>
+
+        <div class="gift-row">
+          <div class="gift-label">IRIS Ειρήνης</div>
+          <div class="gift-value script" id="irisEirini">+306942989216</div>
+          <button class="copy-btn" type="button" data-copy="#irisEirini">Αντιγραφή</button>
+        </div>
 
         <p class="hint">
-          * Τα κουμπιά αντιγραφής δουλεύουν στα περισσότερα κινητά/PC. Αν δεν δουλέψουν, κάντε παρατεταμένο πάτημα.
+          * Αν δεν δουλέψει το κουμπί, κάντε παρατεταμένο πάτημα για αντιγραφή.
         </p>
-      </section>
-      
-      <section class="card fade-in">
-        <h2 class="card-title">Επικοινωνία</h2>
-      
-        <div class="contact-grid">
-      
-          <div class="contact-box">
-            <div class="contact-name">Απόστολος</div>
-            <a class="contact-phone" href="tel:+306984040195">
-              +30 697 297 3219
-            </a>
-          </div>
-      
-          <div class="contact-box">
-            <div class="contact-name">Ειρήνη</div>
-            <a class="contact-phone" href="tel:+306942989216">
-              +30 694 492 2839
-            </a>
-          </div>
-      
-        </div>
-      </section>
-
-      
-      <!-- FOOTER -->
-      <footer class="footer fade-in">
-        <p>Σας περιμένουμε 🤍<br><strong>Απόστολος & Ειρήνη</strong></p>
-      </footer>
-
+      </div>
     </section>
+
+    <!-- CONTACT -->
+    <section class="section center fade-in">
+      <h2 class="h2">Επικοινωνία</h2>
+
+      <div class="contact">
+        <a class="contact-item" href="tel:+306984040195">
+          <span class="c-name">Απόστολος</span>
+          <span class="c-phone">+30 698 404 0195</span>
+        </a>
+
+        <a class="contact-item" href="tel:+306942989216">
+          <span class="c-name">Ειρήνη</span>
+          <span class="c-phone">+30 694 298 9216</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer center fade-in">
+      Σας περιμένουμε 🤍<br><strong>Απόστολος & Ειρήνη</strong>
+    </footer>
+
   </main>
 
   <script>
-    // Countdown: 17/04/2026 18:00 Ελλάδας (Απρίλιος = συνήθως +03:00)
-    const weddingDate = new Date("2026-04-17T18:00:00+03:00");
+    // άλλαξε εδώ την ημερομηνία όποτε αποφασίσετε (το +03:00 για θερινή ώρα)
+    const weddingDate = new Date("2027-00-00T18:00:00+03:00");
     const pad = n => String(n).padStart(2, "0");
 
     function updateCountdown(){
@@ -205,16 +199,15 @@
     updateCountdown();
     setInterval(updateCountdown, 1000);
 
-    // Copy-to-clipboard (IBAN / IRIS)
+    // Copy-to-clipboard
     async function copyTextFromSelector(sel){
       const el = document.querySelector(sel);
-      if(!el) return;
+      if(!el) return false;
       const text = (el.textContent || "").trim();
       try{
         await navigator.clipboard.writeText(text);
         return true;
       }catch(e){
-        // fallback
         const ta = document.createElement("textarea");
         ta.value = text;
         document.body.appendChild(ta);
@@ -248,7 +241,7 @@
           observer.unobserve(e.target);
         }
       });
-    }, { threshold: 0.12, rootMargin: "0px 0px -50px 0px" });
+    }, { threshold: 0.12, rootMargin: "0px 0px -60px 0px" });
 
     document.querySelectorAll(".fade-in").forEach(el => observer.observe(el));
   </script>
