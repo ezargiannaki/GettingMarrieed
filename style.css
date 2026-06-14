@@ -53,8 +53,9 @@ body{
   font-size: 46px;
   line-height: 1.05;
   margin: 0 0 10px;
-  /*color: #76C7C0;*/
-  color: #1F6F78;
+  /*color: #76C7C0;
+  color: #1F6F78;*/
+  color: #9D7BB0;
 }
 
 .amp{ color: var(--accent); }
