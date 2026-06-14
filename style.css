@@ -58,7 +58,10 @@ body{
   /*color: #9D7BB0; LILA*/
 }
 
-.amp{ color: var(--accent); }
+.amp{ 
+  /*color: var(--accent); μπλε */
+  color: #1F6F78;
+}
 
 .date{
   font-size: 15px;
