@@ -53,6 +53,7 @@ body{
   font-size: 46px;
   line-height: 1.05;
   margin: 0 0 10px;
+  color: #b22222;
 }
 
 .amp{ color: var(--accent); }
